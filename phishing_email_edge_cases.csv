@@ -1,0 +1,13 @@
+email_id,sender,subject,body,url,actual_label,edge_case
+1,newsletter@communitylibrary.org,Your monthly library newsletter,Here are this month's reading recommendations and upcoming events.,https://www.communitylibrary.org/news,legitimate,Legitimate email with no expected warning indicators
+2,security@paypa1-alert.com,Account notice,Please review the notice about your account.,https://www.paypa1-alert.com/notice,phishing,Suspicious/lookalike sender domain
+3,events@citymuseum.org,Weekend events,See the schedule for this weekend's exhibits.,,legitimate,Missing URL
+4,,,,,legitimate,All email content fields empty/missing
+5,support@paypa1-alert.com,URGENT: Verify your account today,Act now to confirm your login credentials or your account expires.,http://paypa1-alert.com/login,phishing,Multiple suspicious indicators in one email
+6,it-helpdesk@company-example.org,IT maintenance notice,Please read the maintenance notice when you have time.,http://[invalid-url,phishing,Malformed URL
+7,payroll@company-example.org,Payroll calendar,The updated payroll calendar is available on the employee portal.,,legitimate,Empty-string URL rather than a missing value
+8,helpdesk@company-example.org,Password reset requested,"If you requested a password reset, visit the company portal directly. We will never ask you to send your password by email.",https://portal.company-example.org/password-reset,legitimate,Legitimate message containing security-related words
+9,billing@amaz0n-support.example,Payment issue,Your billing information needs review. Please check your account.,https://amaz0n-support.example/billing,phishing,Lookalike brand and financial language
+10,alerts@secure-login.example,Action required,Your access expires today. Sign in to keep your account active.,https://secure-login.example/verify,phishing,Urgency language and login-themed URL
+11,manager@company-example.org,,The team meeting has moved to 2:00 PM. Please check the calendar.,https://calendar.company-example.org,legitimate,Empty subject field
+12,notice@xn--secure-example-9d0b.example,Security notification,Review this notification when you can.,https://xn--secure-example-9d0b.example/notice,phishing,Punycode domain

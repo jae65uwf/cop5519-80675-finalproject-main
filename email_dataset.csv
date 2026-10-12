@@ -1,0 +1,41 @@
+email_id,sender,subject,body,url,actual_label
+1,security@paypa1-alert.com,Account Suspended,Your account has been suspended. Verify your identity immediately to restore access.,http://paypal-secure-login.example,phishing
+2,billing@netfl1x-support.com,Payment Failed,We could not process your latest payment. Update your billing information now to avoid interruption.,http://netflix-billing-update.example,phishing
+3,admin@microsoft365-verify.com,Password Expiration Notice,Your Microsoft 365 password expires today. Confirm your current password to keep access.,http://office365-password-check.example,phishing
+4,refund@irs-taxreturn.com,Tax Refund Available,You are eligible for a tax refund. Submit your banking information to receive your payment.,http://irs-refund-claim.example,phishing
+5,alerts@amaz0n-orders.com,Unusual Order Detected,An unusual purchase was made using your account. Sign in immediately if you did not authorize it.,http://amazon-order-review.example,phishing
+6,support@appleid-security.net,Apple ID Locked,Your Apple ID has been temporarily locked due to unusual activity. Unlock your account below.,http://appleid-unlock.example,phishing
+7,payroll@company-benefits.co,Payroll Information Required,Payroll processing failed. Confirm your direct deposit account details before 5 PM today.,http://employee-payroll-update.example,phishing
+8,delivery@fedex-tracking.co,Package Delivery Failed,We attempted delivery but could not complete it. Pay the small redelivery fee to reschedule.,http://fedex-redelivery-fee.example,phishing
+9,security@bank-accountverify.com,Fraud Alert,Suspicious activity was detected on your bank account. Verify your account number and PIN immediately.,http://bank-secure-verification.example,phishing
+10,hr@career-offer.net,Immediate Job Offer,You have been selected for a remote position. Complete the attached hiring form and provide your SSN.,http://career-onboarding.example,phishing
+11,helpdesk@it-passwordreset.com,Required Password Reset,IT detected a security issue with your account. Use the link below to reset your password immediately.,http://company-password-reset.example,phishing
+12,notifications@docusign-review.net,Document Awaiting Signature,A confidential document is waiting for your signature. Sign in with your work credentials to view it.,http://docusign-document-review.example,phishing
+13,service@venm0-payment.com,Payment Received,You received a payment of $450. Log in to confirm the transaction and release the funds.,http://venmo-payment-release.example,phishing
+14,support@dropbox-share.net,Shared File Expiring,A file shared with you will expire today. Sign in to your Dropbox account to keep access.,http://dropbox-file-access.example,phishing
+15,ceo.office@executive-request.com,Urgent Request,I am in a meeting and need you to purchase gift cards immediately. Reply with the card numbers when complete.,,phishing
+16,security@google-accountreview.com,New Sign-In Detected,We detected a new sign-in from an unknown device. Confirm whether this was you.,http://google-account-confirm.example,phishing
+17,accounts@quickbooks-invoice.net,Overdue Invoice,Your invoice is overdue. Open the invoice portal and submit payment today to avoid additional fees.,http://quickbooks-invoice-pay.example,phishing
+18,support@university-mailbox.com,Mailbox Storage Full,Your university mailbox has reached its storage limit. Log in to increase your storage capacity.,http://university-mailbox-upgrade.example,phishing
+19,rewards@customer-prize.com,You Won a $500 Gift Card,Congratulations! You were selected to receive a $500 gift card. Claim your reward before it expires.,http://claim-customer-prize.example,phishing
+20,vpn@remote-accessverify.com,VPN Access Will Be Disabled,Your remote access will be disabled unless you verify your employee credentials today.,http://vpn-employee-verify.example,phishing
+21,professor@university.edu,Final Project Reminder,Reminder that the final project is due Friday. Please submit your notebook and documentation through Canvas.,,legitimate
+22,hr@company.com,Benefits Enrollment Opens Monday,Open enrollment begins Monday. Review the benefits guide on the employee portal before making your selections.,https://benefits.company.com,legitimate
+23,orders@amazon.com,Your Order Has Shipped,Your recent order has shipped and is expected to arrive Thursday. You can view tracking details in your account.,https://www.amazon.com/orders,legitimate
+24,noreply@github.com,Repository Activity,A pull request was opened in a repository you follow. Visit GitHub to review the changes.,https://github.com,legitimate
+25,manager@company.com,Team Meeting Tomorrow,Our weekly team meeting is tomorrow at 10 AM. We will review project progress and next week's priorities.,,legitimate
+26,library@university.edu,Library Book Due Soon,The book checked out to your account is due next week. Renew it online if you need additional time.,https://library.university.edu,legitimate
+27,support@spotify.com,Your Spotify Receipt,Thanks for your monthly subscription payment. Your receipt is available in your account history.,https://www.spotify.com/account,legitimate
+28,security@company.com,Quarterly Security Training,Quarterly security awareness training is now available. Complete the assigned course through the employee learning portal.,https://training.company.com,legitimate
+29,coworker@company.com,Updated Project Notes,I added the changes we discussed to the project notes. Let me know if anything needs to be revised.,,legitimate
+30,registrar@university.edu,Spring Registration Information,Registration appointments for the spring semester are now available in the student portal.,https://portal.university.edu,legitimate
+31,no-reply@dropbox.com,Folder Shared With You,Jordan shared the Project Files folder with you. You can view it from your Dropbox account.,https://www.dropbox.com,legitimate
+32,notifications@linkedin.com,New Connection Request,You have a new connection request. Sign in to LinkedIn to view the request.,https://www.linkedin.com,legitimate
+33,it@company.com,Password Policy Reminder,Your password will expire in 14 days. Change it through the company portal when convenient. IT will never ask you to send your password by email.,https://portal.company.com/password,legitimate
+34,bankalerts@trustedbank.com,Monthly Statement Available,Your monthly account statement is ready. Access it securely through online banking or the mobile application.,https://www.trustedbank.com,legitimate
+35,calendar@company.com,Meeting Invitation Updated,The project review meeting has moved from 2 PM to 3 PM Thursday. The calendar invitation has been updated.,,legitimate
+36,billing@adobe.com,Adobe Subscription Receipt,Your subscription renewed successfully. You can review your invoice from your Adobe account.,https://account.adobe.com,legitimate
+37,advisor@university.edu,Advising Appointment,This is confirmation of your advising appointment next Tuesday at 1:30 PM. Reply if you need to reschedule.,,legitimate
+38,newsletter@cybersecurity.org,Weekly Security Newsletter,"This week's newsletter covers phishing awareness, password security, and recent cybersecurity research.",https://www.cybersecurity.org,legitimate
+39,payroll@company.com,Direct Deposit Confirmation,"Your direct deposit information was updated through the employee portal. If you did not make this change, contact payroll using the internal directory.",,legitimate
+40,support@microsoft.com,Microsoft Account Security Tips,"Review recommended steps for protecting your Microsoft account, including multifactor authentication and password security.",https://account.microsoft.com/security,legitimate
